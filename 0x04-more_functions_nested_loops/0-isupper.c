@@ -1,10 +1,10 @@
 /**
- * _isupper - checks if c is upper case
- * @c: integer to check if it is upper
+ * _isupper - checks if a charachter is in upper case
+ * @c: a character to check if it is upper
  *
  * Return: 1 if c uppercase else 0
  */
-int _isupper(int c)
+int _isupper(char c)
 {
 	if (c >= 65 && c <= 90)
 		return (1);
