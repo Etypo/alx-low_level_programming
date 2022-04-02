@@ -1,16 +1,15 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
-* _abs - check positive, negative or zero
-* @n: the number to be checked
-*
-* Return: return absolute value
-*/
-int _abs(int n)
+ *_abs - Check Holberton
+ * @r: An integre input
+ * Description: This function returns absolute value of a number
+ * Return: Absolut value of number r
+ */
+int _abs(int r)
 {
-if (n >= 0)
-{
-return (n);
-}
-return (n * -1);
+	if (r >= 0)
+		return (r);
+	else
+		return (r * -1);
 }
